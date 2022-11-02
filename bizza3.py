@@ -2,7 +2,7 @@ a = 33
 b = 200
 if b > a:
   print("b is greater than a")            
-                                                     #3.1 
+                                                     #3.1 operatore if 
 
 a = 33
 b = 200
@@ -23,18 +23,18 @@ if b > a:
 elif a == b:
   print("a and b are equal")  
 else:
-  print("a is greater than b")                       #3.4 comando "sennò"
+  print("a is greater than b")                       #3.4 comando "in tutti gli altri casi"
 
-  a = 200
+a = 200
 b = 33
 if b > a:
   print("b is greater than a")
 else:
   print("b is not greater than a")                   #3.5 anche senza elif
 
-  if a > b: print("a is greater than b")             #3.6 anche senza dichiarare le variabili 
+if a > b: print("a is greater than b")             #3.6 anche senza dichiarare le variabili 
 
-  a = 2
+a = 2
 b = 330
 print("A") if a > b else print("B")                  #3.7 con una sola condizione da verificare
 

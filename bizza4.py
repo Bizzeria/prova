@@ -15,7 +15,7 @@ fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   if x == "banana":
     break
-  print(x)                                              #4.4 operatore break prima di stampare 
+  print(x)                                              #4.4 non verrà stampata la condizione dell if 
 
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
