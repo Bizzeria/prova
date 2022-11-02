@@ -64,6 +64,12 @@ for y in numeri:
       z=y
 print(minimo)
 
+#es 8
+animali = ["mucca" , "cavallo" , "elicottero" , "elefante tandem psichico da guerra" , "scoiattolo"]
+animali.reverse()
+print (animali)
+
+
 
 
 
