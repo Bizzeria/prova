@@ -69,7 +69,15 @@ animali = ["mucca" , "cavallo" , "elicottero" , "elefante tandem psichico da gue
 animali.reverse()
 print (animali)
 
+#es 9
+animali = ["cane", "gatto", "leone"]
+numeri = [19,22,34,47,89]
 
+z = animali + numeri 
+print (z)
+for x in numeri: 
+     if x>5: 
+       print (x)
 
 
 
