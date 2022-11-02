@@ -32,4 +32,12 @@ elif y > x and y > z:
     print (y)
 elif z>x and z>y: 
     print (z)
-    
+
+#es 5
+città = ["Ravenna", "torino", "milano"]
+persone = ["Sungro", "RaphasamsonGAH"]
+
+for x in città: 
+    for y in persone: 
+        print (x,y)
+
