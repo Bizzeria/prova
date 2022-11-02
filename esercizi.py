@@ -21,3 +21,15 @@ y = 5
 z = 57
 if x >y and x > z:
     print ("x è il numero maggiore")
+
+#es 4 
+x = 300 
+y = 5
+z = 57
+if x >y and x > z:
+    print (x)
+elif y > x and y > z:
+    print (y)
+elif z>x and z>y: 
+    print (z)
+    
