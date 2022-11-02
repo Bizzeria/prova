@@ -51,6 +51,19 @@ for x in range(5):
     if u < rnd:
         print (rnd)
 
+#es 7 
+import random 
+numeri = []
+for x in range(5):
+    rnd = random.randrange(1,70000)
+    numeri.append(rnd)
+  
+for y in numeri: 
+    minimo = numeri [0]
+    if y < minimo:
+      z=y
+print(minimo)
+
 
 
 
