@@ -15,3 +15,9 @@ if x > y:
     print ("ciao")
 else: 
     print ("arrivederci")
+
+x = 300 
+y = 5
+z = 57
+if x >y and x > z:
+    print ("x è il numero maggiore")
