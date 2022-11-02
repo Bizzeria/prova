@@ -79,5 +79,18 @@ for x in numeri:
      if x>5: 
        print (x)
 
+#es 10 
+
+import random 
+numeri = []
+for x in range(10):
+    rnd = random.randrange(1,70000)
+    numeri.append(rnd)
+print (numeri)
+for y in numeri:
+   check = int(y/2)
+   if y == (check * 2):
+   	   print(y)
+
 
 
