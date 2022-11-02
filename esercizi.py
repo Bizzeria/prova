@@ -41,3 +41,16 @@ for x in città:
     for y in persone: 
         print (x,y)
 
+#es 6
+import random 
+numeri = []
+u = 56
+for x in range(5):
+    rnd = random.randrange(1,7000)
+    numeri.append(rnd)
+    if u < rnd:
+        print (rnd)
+
+
+
+
