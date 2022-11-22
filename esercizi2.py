@@ -94,3 +94,23 @@ lista (Sbommi)
 print ("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
 
 #es G
+
+def Fibonacci(fib):
+    if fib > 1:
+        return Fibonacci(fib-1) + Fibonacci(fib-2)
+    return fib
+
+fib=int(input("Scrivere un numero: "))
+Fibonacci(fib)
+
+for g in range (1, fib+1):
+    print (Fibonacci(g))
+
+print ("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
+
+#es H 
+
+def wars(*parametri):
+    print (parametri[2])
+    print (parametri[4])
+wars ("accidents", "crimes", 7, 25, "i_love_football")
