@@ -82,14 +82,17 @@ print ("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
 Sbommi = []
 
 def lista(Sungro):
-    rn= int(input("Quanti numeri si vuole inserire nella lista? "))
-    for c in range(rn):
-            num = int(input("Scrivere un numero: "))
-            Sbommi.append(num)
-            for f in range (num):
-                print ("*")
+    for elem in Sbommi:
+        for f in range(elem):
+            print("*", end="")
+        print("")
 
-lista (Sbommi)
+rn = int(input("Quanti numeri si vuole inserire? "))
+for c in range (rn):
+    num=int(input("Scrivere un numero: "))
+    Sbommi.append(num)
+
+lista(Sbommi)
 
 print ("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
 
@@ -112,5 +115,17 @@ print ("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
 
 def wars(*parametri):
     print (parametri[2])
-    print (parametri[4])
+    print (parametri[3])
 wars ("accidents", "crimes", 7, 25, "i_love_football")
+
+
+print ("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
+
+#es I
+
+piani=int(input("Di quanti piani deve essere alto l'albero?: "))
+for k in range(piani):
+    print(" "*(piani-k-1) + "*"*(2*k+1))
+
+
+print ("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
