@@ -113,10 +113,7 @@ print ("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
 
 #es H 
 
-def wars(*parametri):
-    print (parametri[2])
-    print (parametri[3])
-wars ("accidents", "crimes", 7, 25, "i_love_football")
+
 
 
 print ("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
@@ -129,3 +126,16 @@ for k in range(piani):
 
 
 print ("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
+
+#es J
+
+listabommo = []
+rang = int(input("Quanti numeri si vuole inserire? "))
+for h in range(rang):
+    numb = int(input("Inserire un numero: "))
+    listabommo.append(numb)
+
+
+print (listabommo)
+
+
