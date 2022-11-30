@@ -1,7 +1,7 @@
 #es A 
 
 for x in range(5):
-    numero = int(input("Scrivere un numero:"))
+    numero = int(input("Scrivere un numero: "))
     print (numero) 
 
 print ("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
@@ -113,6 +113,23 @@ print ("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
 
 #es H 
 
+listasbommica = []
+
+volte = int(input("Quanti argomenti si vuole inserire? "))
+
+for j in range(volte):
+    argomento = input("Inserire un argomento: ")
+    listasbommica.append(argomento)
+
+
+def wars(parametri):
+    if volte > 2:
+        print (parametri[2])
+    if volte >3:
+        print (parametri[3])
+    if volte <= 2:
+        print("non ci sono abbastanza argomenti")
+wars (listasbommica)
 
 
 
@@ -129,13 +146,48 @@ print ("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
 
 #es J
 
-listabommo = []
-rang = int(input("Quanti numeri si vuole inserire? "))
-for h in range(rang):
-    numb = int(input("Inserire un numero: "))
-    listabommo.append(numb)
+num1 = int(input("Scrivere un numero: "))
+num2 = int(input("Scrivere un numero: "))
+def bommooooo (free, fro):
+    if num1>num2:
+        for gnamgnam in reversed(range(2, num1)):
+            if num1%gnamgnam == 0 and num2%gnamgnam == 0:
+                print (gnamgnam)
+                break     
 
+    if num1<num2:   
+        for blob in reversed(range(2,num2)):
+            if num2%blob == 0 and num1%blob == 0:
+                print (blob)
+                break
+        
+    if num1 == num2: 
+        print("bisogna inserire due numeri diversi")
 
-print (listabommo)
+bommooooo(num1,num2)
 
+print ("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
 
+#es k
+
+num1 = int(input("Scrivere un numero: "))
+num2 = int(input("Scrivere un numero: "))
+def bommooooo (free, fro):
+    if num1>num2:
+        for gnamgnam in range(num1, 10000000000):
+            if gnamgnam%num1 == 0 and gnamgnam%num2 == 0:
+                print (gnamgnam)
+                break     
+
+    if num1<num2:   
+        for blob in range(num2, 10000000000):
+            if blob%num2 == 0 and blob%num1 == 0:
+                print (blob)
+                break
+        
+    if num1 == num2: 
+        print("bisogna inserire due numeri diversi")
+
+bommooooo(num1,num2)
+
+print ("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
